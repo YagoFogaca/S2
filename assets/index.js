@@ -12,7 +12,7 @@ function carroselAvancar() {
     avancarControle = 0;
   }
 
-  section.style.transform = `translateX(${-avancarControle * 380}px)`;
+  section.style.transform = `translateX(${-avancarControle * 300}px)`;
 }
 
 function carroselVoltar() {
@@ -21,7 +21,7 @@ function carroselVoltar() {
     avancarControle = cards.length - 1;
   }
 
-  section.style.transform = `translateX(${-avancarControle * 380}px)`;
+  section.style.transform = `translateX(${-avancarControle * 300}px)`;
 }
 
 avancar.addEventListener("click", carroselAvancar);
